@@ -26,7 +26,7 @@
     "timeAgo": "4d ago",
     "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*D7gHn4SbjPDJqfYZ1pAYNQ.png",
     "staffPick": true,
-    "isFeatured": false
+    "isFeatured": true
   },
   {
     "id": 3,
@@ -110,7 +110,7 @@
     "timeAgo": "2d ago",
     "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*D7gHn4SbjPDJqfYZ1pAYNQ.png",
     "staffPick": false,
-    "isFeatured": false
+    "isFeatured": true
   },
   {
     "id": 9,
@@ -138,6 +138,20 @@
     "timeAgo": "1d ago",
     "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*6e9pyMB1ml3Us5IBEAwe-A.jpeg",
     "staffPick": false,
-    "isFeatured": false
+    "isFeatured": true
+  },
+   {
+    "id": 11,
+    "author": "Peter Blue",
+    "tag": "Python",
+    "title": "Python Tips for Computer Science",
+    "excerpt": "Improve your computer science workflow.",
+    "likes": 600,
+    "comments": 40,
+    "claps": 1800,
+    "timeAgo": "1d ago",
+    "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*6e9pyMB1ml3Us5IBEAwe-A.jpeg",
+    "staffPick": false,
+    "isFeatured": true
   }
 ]
