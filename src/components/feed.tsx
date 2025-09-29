@@ -31,7 +31,7 @@ const Feed: React.FC = () => {
   const [posts, setPosts] = useState<Post[]>([]);
 
   useEffect(() => {
-    fetch("/src/posts.json")
+  fetch("/posts.json")
       .then((res) => res.json())
       .then((data) => setPosts(data));
   }, []);

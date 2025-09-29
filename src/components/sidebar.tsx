@@ -52,7 +52,7 @@ const Sidebar: React.FC = () => {
   const [staffPicks, setStaffPicks] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch("/src/staffpicks.json")
+    fetch("/staffpicks.json")
       .then((res) => res.json())
       .then((data) => setStaffPicks(data));
   }, []);
